@@ -1,0 +1,185 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h1, h2 {
+	display: inline;
+	font-weight: 300;
+}
+
+h1 {
+	color: #DD0000;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+h2 {
+	color: #cccccc;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px auto;
+    font-weight: 300;
+}
+
+h3.date {
+    color: #cccccc;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h4 {
+	color: #cccccc;
+}
+
+hr {
+	display: block;
+    margin: 30px auto;
+    border: 1px solid #dddddd;
+}
+
+.drop-cap {
+	float: left;
+	color: #cccccc;
+	font-size: 90px;
+	line-height: 60%;
+	padding-top: 26px;
+	padding-right: 7px;
+	text-decoration: uppercase;
+}
+
+.header {
+	width: 980px;
+	margin: 50px auto 80px auto;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	display: table;
+	width: 980px;
+	margin-top: 10px;
+	background-color: black;
+	padding: 20px auto;
+}
+
+.navbar ul {
+    display: table-row;
+    width: inherit;
+}
+
+.navbar li {
+    display: table-cell;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    width: inherit;
+    padding: 14px 0px;
+    border: 1px solid white;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.navbar li a:hover {
+	color: #cccccc;
+    opacity: 0.5;
+}
+
+/*Images*/
+
+img {
+	max-width: 600px;
+}
+
+#ad-img {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+/*Link styles*/
+
+#popular-links ul {
+
+}
+
+#popular-links li {
+	font-size: 16px;
+	line-height: 26px;
+    font-weight: 300;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#popular-links li a {
+    color: #DD0000;
+    text-decoration: none;
+}
+
+.seemore-link a {
+    color: #DD0000;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    /*border-bottom: 1px solid #dddddd;*/
+}
+
+.seemore-link a:hover {
+    color: #aa0000;
+}
+
+/*Two column section*/
+
+.group {
+	width: 980px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#article {
+	float: left;
+	width: 600px;
+    padding-bottom: 30px;
+}
+
+#right-section {
+	float: right;
+	width: 320px;
+}
+
+#clear {
+  	clear: both;
+}
+
+/*Footer*/
+
+.footer {
+	font-size: 14px;
+	color: #cccccc;
+	width: 980px;
+	margin: 30px auto 50px auto;
+}
+
+.footer a { 
+    font-size: 14px;
+    font-weight: 300;
+    color: #DD0000;
+    text-decoration: none;
+    margin: 10px auto;
+}
+
+.footer a:hover {
+    color: #aa0000;
+}

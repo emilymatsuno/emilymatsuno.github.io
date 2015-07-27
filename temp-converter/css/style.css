@@ -1,0 +1,44 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	min-width: 683px;
+	padding: 250px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	display: inline-block;
+	margin: 0px 50px;
+	color: #22313F;
+}
+
+p {
+	display: inline;
+	font-size: 70px;
+	color: #22313F;
+	font-weight: 100;
+}
+
+input#celsius, input#fahrenheit  {
+	background-color: white;
+	color: red;
+	padding: 10px 20px;
+	font-size: 70px;
+	width: 160px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid red;
+	font-weight: 100;
+	text-align: center;
+}
+
+/*gets ride of default blue glow effects*/
+
+input:focus, textarea:focus {
+    outline: 0;
+}

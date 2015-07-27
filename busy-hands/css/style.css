@@ -35,11 +35,12 @@ nav a {
 	padding: 20px 25px;
 	text-align: center;
 	letter-spacing: 0.012em;
+	font-size: 16px;
 }
 
 nav a:hover {
 	color: white;
-	background-color: #96DDFC;
+	background-color: #1FA2E1;
 }
 
 /*Section*/
@@ -55,9 +56,9 @@ nav a:hover {
 }
 
 #blurb {
-	border: 3px #f9f9f9;
+	border: 1px #f9f9f9;
 	border-style: inset;
-	padding: 20px;
+	padding: 10px 20px;
 	height: auto;
 	width: auto;
 }
@@ -72,59 +73,66 @@ nav a:hover {
 #blurb img{
 	display: inline;
 	border: none;
+	margin-top: 15px;
 	float: right;
 }
 
 /*Social Media nav*/
 
-.socialmedia nav a {
-	display: inline-block;
+#socialmedia {
+	float: right; /* float the #social-media element right */
+	padding: 25px 0 25px 0;
+}
+
+#socialmedia a {
+	float: left;
+	display: block;
 	background-image: url("../images/socialNav.png");
 	background-repeat: no-repeat;
-	height: 8px;
-	margin-top: 26px;
+	height: 48px;
+	width: 48px;
 	margin-right: 16px;
-	text-decoration: none;
+	overflow: hidden;
 	font-size: 0;
 }
 
-nav a#gmail {
+#socialmedia a.gmail {
 	background-position: 0px -48px;
 }
 
-nav a:hover#gmail {
+#socialmedia a.gmail:hover {
 	background-position: 0px 0px;
 }
 
-nav a#twitter {
+#socialmedia a.twitter {
 	background-position: -48px -49px;
 }
 
-nav a:hover#twitter {
+#socialmedia a.twitter:hover {
 	background-position: -48px 0px;
 }
 
-nav a#facebook {
+#socialmedia a.facebook {
 	background-position: -97px -49px;
 }
 
-nav a:hover#facebook {
+#socialmedia a.facebook:hover {
 	background-position: -97.5px 0px;
 }
 
-nav a#rss {
+#socialmedia a.rss {
 	background-position: -145px -49px;
 }
 
-nav a:hover#rss {
+#socialmedia a.rss:hover {
 	background-position: -145px 0px;
 }
 
-.socialmedia a:last-child {
+#socialmedia a:last-child {
 	margin-right: 0px;
 }
 
-.socialmedia a:first-child {
+#socialmedia a:first-child {
 	margin-left: 462px;
 }
 
@@ -188,14 +196,9 @@ footer h1 {
 	color: #cccccc;
 	border-bottom: 1px solid #444444;
 	padding-bottom: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	font-weight: normal;
 	font-size: 24px;
-}
-
-footer hr {
-	width: 100%;
-	border: 1px solid #444444;
 }
 
 .box-footer {
@@ -205,21 +208,26 @@ footer hr {
 }
 
 .box-footer ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.box-footer ul li {
+	text-align: left;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    border-bottom: 1px solid #444444;
     overflow: hidden;
+    padding: 10px 0px;
 }
 
 .box-footer a {
-	font-size: 16px;
+	font-size: 14px;
 	background-color: none;
 	color: #777777;
 	text-decoration: none;
 }
 
 .box-footer a:hover {
-	font-size: 16px;
 	color: #333333;
 }
 
@@ -227,7 +235,7 @@ footer hr {
 	margin-left: 0px;
 }
 
-.box-footer:last-child {
+.box-footer:last-of-type {
 	margin-right: 0px;
 }
 

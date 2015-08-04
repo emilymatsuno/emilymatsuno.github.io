@@ -1,0 +1,208 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url("../img/waldo-bg.jpg") center center no-repeat;
+	background-position: 0px 36px;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	content: "";
+	font-size: 0;
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+#wrapper {
+	padding: 7% 12%;
+	background-color: white;
+	height: 100%;
+}
+
+.left-column {
+	float: left;
+	width: 23%;
+	margin-right: 7%;
+}
+
+.right-column {
+	float: right;
+	width: 70%;
+	top: 0;
+}
+
+img#profile-pic {
+	border: 3px solid black;
+	width: 100%;
+	margin: -3px;
+}
+
+h1, h4 {
+	margin: 0;
+	padding-top: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "OptimaLTStd-ExtraBlack", sans-serif;
+	font-size: 22px;
+	display: inline-block;
+}
+
+h2 {
+	font-family: "OptimaLTStd-ExtraBlack", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #0083d2;
+	margin: 45px 0px 0px 0px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 22px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+
+h4 {
+	color: black;
+	margin-top: 20px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 16px;
+	margin-top: 5px;
+	line-height: 26px;
+}
+
+ul {
+	padding: 0;
+	margin: 5px 0px;
+}
+
+ul li {
+	list-style-type: none;
+	color: gray;
+	font-size: 14px;
+	padding: 5px 0px;
+	text-align: left;
+}
+
+/*SLIDE LOGIN PANEL*/
+
+.toggle-login {
+	font-family: "OptimaLTStd-ExtraBlack", sans-serif;	
+	background-color: #0065aa;
+	color: white;
+	font-size: 14px;
+	float: right;
+	clear: both;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+	padding: 9px 12px 5px 12px;
+}
+
+.toggle-login:hover {
+	background-color: white;
+	color: #0083d2;
+}
+
+.login {
+	display: none;
+}
+
+.login.expanded {
+	padding: 2% 4% 2% 75%;
+	border-bottom: 2px solid black;
+}
+
+input#username, input[type="password"] {
+	margin: 8px 0px;
+	font-size: 14px;
+	padding: 10px 10px;
+	border: none;
+	width: 92%;
+}
+
+input[type="submit"] {
+	font-family: "OptimaLTStd-ExtraBlack", sans-serif;
+	text-transform: uppercase;
+	margin: 10px 0px;
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 7px;
+	border: none;
+	color: white;
+	width: 100%;
+	background-color: #f2132c;
+}
+
+/*.close-btn {
+	color: white;
+	margin-bottom: -13px;
+	margin-right: 50px;
+	font-size: 20px;
+}*/
+
+/*SLIDE PANEL STYLE ENDS HERE*/
+
+#top-menu-bg {
+	background-color: #0083d2;
+	padding: 20px 50px 18px 50px;
+	margin: 0;
+	border-bottom: 2px solid black;
+}
+
+button#actions {
+	font-family: "OptimaLTStd-ExtraBlack", sans-serif;
+	/*border: 2px solid #f2132c;*/
+	border: none;
+	background-color: #f2132c;
+	font-size: 12px;
+	color: white;
+	padding: 10px 10px 8px 10px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	margin: 0px 3px;
+}
+
+button#actions:hover {
+	background-color:#0083d2;
+}
+
+#actions {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+#pic {
+	margin-top: 20px;
+	margin-right: 8px;
+	height: 155px;
+}
+
+#pic:last-child {
+	margin-right: none;
+}
+
+.social {
+	margin-top: 20px;
+}
+
+.social a {
+	margin-right: 8px;
+	color: #0083d2;
+}

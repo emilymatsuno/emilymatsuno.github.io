@@ -1,0 +1,28 @@
+body {
+	background-color: #FDE3A7;
+}
+
+#app {
+	font-family: monospace;
+	background-color: white;
+	width: 426px;
+	margin: 50px auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.row div {
+	text-align: center;
+	font-size: 20px;
+	width: 80px;
+	padding: 30px;
+	border: 1px dashed #95a5a6;
+	float: left;
+}
+
+.row div:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}

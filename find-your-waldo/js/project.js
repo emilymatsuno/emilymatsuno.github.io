@@ -1,3 +1,5 @@
-$('.toggle-login').click(function(){
-  $('.login').slideToggle('slow');
+$(document).ready(function(){
+	$('.toggle-login').click(function(){
+  		$('.login').slideToggle('slow');
+  	});
 });

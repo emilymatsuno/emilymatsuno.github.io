@@ -1,0 +1,55 @@
+body {
+	background-image: url("../images/cloud_2.gif");
+	background-repeat: repeat;
+	background-position: cover;
+	font-family: 'Paytone One', sans-serif;
+}
+
+h1 {
+	font-size: 198px;
+	text-transform: uppercase;
+	color: #2c3e50;
+	text-align: center;
+	margin-top: 230px;
+	letter-spacing: optical;
+	z-index: -20;
+}
+
+#chicken {
+	top: 157px;
+	right: 220px;
+}
+
+#cow {
+	top: 343px;
+	z-index: 3;
+	right: -180px;
+}
+
+#lamb {
+	top: 65px;
+	right: 585px;
+}
+
+#pig {
+	bottom: 120px;
+	right: 620px;
+	z-index: 2;
+}
+
+#sun {
+	top: 30px;
+	left: 50px;
+}
+
+img {
+	position: absolute;
+}
+
+.grass {
+	background-color: #27ae60;
+	width: 100%;
+	padding: 80px;
+	position: fixed;
+	bottom: 0px;
+}

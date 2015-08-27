@@ -47,6 +47,7 @@ nav a:hover {
 	float: right;
 	line-height: 32px;
 	font-size: 26px;
+	cursor: pointer;
 }
 
 #responsive-menu {
@@ -71,6 +72,7 @@ nav a:hover {
 	background-color: #191919;
 	transition: 0.3s ease;
 	color: yellow;
+	cursor: pointer;
 }
 
 /*TAGLINE*/
@@ -155,6 +157,7 @@ h3 {
 .blurb-btn:hover {
 	background-color: #E6E600;
 	transition: 0.3s ease;
+	cursor: pointer;
 }
 
 /*CALLOUTS*/
@@ -194,6 +197,7 @@ h3 {
 .callout-btn:hover {
 	background-color: #b2b2b2;
 	transition: 0.3s ease;
+	cursor: pointer;
 }
 
 

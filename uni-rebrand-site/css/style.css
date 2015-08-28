@@ -405,7 +405,7 @@ p.header {
 /*SECONDARY NAV MENU*/
 
 .second-nav {
-	padding: 25px 0px;
+	padding: 15px 0px;
 	background-color: #f4f4f4;
 	border-bottom: 1px solid #e4e4e4;
 	position: relative;
@@ -437,24 +437,24 @@ p.header {
 	color: #999;
 }
 
-#register {
-	display: inline-block;
-}
-
-#register a {
+button#register, button#register-cert {
 	font-family: "Brandon Grotesque";
 	text-transform: uppercase;
-	padding: 8px 16px;
+	padding: 8px 12px;
+	color: #6ca439;
+	background-color: #f4f4f4;
 	border: 1px solid #c2c2c2;
 	border-radius: 4px;
+	font-weight: normal;
+	margin-bottom: 0px;
 }
 
-#register a:hover {
+button#register:hover, button#register-cert:hover {
 	color: #6ca439;
 	transition: all 0.2s ease;
 }
 
-.second-nav-sticky #register a {
+.second-nav-sticky button#register, .second-nav-sticky button#register-cert {
 	background-color: #6ca439;
 	border: 1px solid #6ca439;
 	color: white;
@@ -462,7 +462,7 @@ p.header {
 	transition: all 0.2s ease;
 }
 
-.second-nav-sticky #register a:hover {
+.second-nav-sticky button#register:hover, .second-nav-sticky button#register-cert:hover {
 	background-color: #558d35;
 }
 
@@ -502,7 +502,6 @@ p.intro {
 .quote-content {
 	margin: 0 auto;
 	width: 530px;
-	padding: 10px;
 	text-align: center;
 }
 
@@ -911,9 +910,6 @@ a#forgot {
 	.last-cta-content {
 		width: 600px;
 	}
-	.last-cta-bg, .quote-content {
-		padding: 60px 0px;
-	}
 	footer img {
 		width: 145px;
 	}
@@ -1078,21 +1074,14 @@ a#forgot {
 		background-size: 720px;
 		background-position: 0px 20px;
 	}
-	#register {
-		margin-top: 27px;
-	}
-	.second-nav {
-		padding: 15px 0px;
-	}
-	.secondary-nav a {
-		text-align: center;
+	.second-nav a {
 		margin-right: 15px;
 	}
-	.secondary-nav a:last-child {
+	.second-nav a:last-child {
 		margin-right: 0px; 
 	}
-	#register a {
-		padding: 5px;
+	button#register {
+		padding: 5px 8px;
 	}
 	#signin-box {
 		margin: 0 auto;
@@ -1101,7 +1090,7 @@ a#forgot {
 	}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 455px) {
 	.header-bg-home, .header-bg-online, .header-bg-public, .header-bg-private, .header-bg-certification {
 		background-size: 590px;
 		background-position: -30px 20px;
@@ -1114,9 +1103,19 @@ a#forgot {
 		font-size: 18px;
 		line-height: 26px;
 	}
+	.wrapper {
+		width: 86%;
+	}
+
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 450px) {
+	.second-nav a {
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 432px) {
 	#top-menu-logo img {
 		margin-top: 2px;
 	}
@@ -1137,5 +1136,14 @@ a#forgot {
 	p.quote {
 		font-size: 20px;
 		line-height: 28px;
+	}
+	.second-nav a {
+		margin-right: 15px;
+	}
+	.second-nav a:nth-child(3) {
+		margin-right: 0px;
+	}
+	button#register-cert {
+		margin-top: 14px;
 	}
 }

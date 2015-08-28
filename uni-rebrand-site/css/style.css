@@ -202,7 +202,7 @@ button#toggle-btn, button {
 	z-index: 10;
 }
 
-button#toggle-btn:hover, button:hover {
+button#toggle-btn:hover {
 	border: 2px solid white;
 	color: white;
 	cursor: pointer;
@@ -496,6 +496,7 @@ p.intro {
 	background-color: white;
 	position: relative;
 	height: 100%;
+	padding: 50px 0px;
 }
 
 .quote-content {
@@ -660,7 +661,7 @@ a#three-column-button:hover {
 	background-color: white;
 	border-top: 1px solid #e7e7e7;
 	text-align: center;
-	padding: 80px 0px;
+	padding: 50px 0px;
 }
 
 .last-cta-content {
@@ -677,6 +678,7 @@ p.last-cta {
 }
 
 .last-cta-button {
+	margin-bottom: 0px;
 	font-family: "Brandon Grotesque";
 	font-weight: 500;
 	text-transform: uppercase;
@@ -756,6 +758,57 @@ footer h4 a:hover {
  a.social:hover {
  	color: #6ca439;
  }
+
+ /*SIGNIN PAGE RESPONSIVE*/
+ #signin-box {
+ 	border: 2px solid #e7e7e7;
+ 	border-radius: 4px;
+ 	width: 80%;
+ 	margin: 20% auto;
+ 	padding-bottom: 20px;
+ 	text-align: center;
+ }
+ .signin-logo {
+ 	width: 60px;
+ 	margin: 30px auto;
+ }
+
+ input#username-signin, input#password-signin[type="password"] {
+	width: 80%;
+	border: 1px solid #e7e7e7;
+	font-size: 16px;
+	font-family: "ProformaBook";
+	padding: 10px;
+}
+
+input#username-signin:focus, input#password-signin[type="password"]:focus {
+	border: 1px solid #6ca439;
+	outline: 0;
+}
+
+input#password-signin[type="password"] {
+	margin: 20px 0px;
+}
+
+button#signin {
+	margin-bottom: 20px;
+}
+
+button#signin:hover {
+	border: 2px solid #558d35;
+	background-color: #558d35;
+	transition: all 0.25s ease;
+}
+
+a#forgot {
+	font-family: "Brandon Grotesque";
+	color: #6ca439;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-decoration: underline;
+	margin-top: 20px;
+	letter-spacing: 0.05em;
+}
 
 /*RESPONSIVE STYLES*/
 
@@ -937,6 +990,10 @@ footer h4 a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+	.header-bg-online {
+		background-size: 650px;
+		background-position: 20px 20px;
+	}
 	.wrapper {
 		width: 85%;
 	}
@@ -1017,14 +1074,30 @@ footer h4 a:hover {
 }
 
 @media only screen and (max-width: 525px) {
+	.header-bg-home, .header-bg-online, .header-bg-public, .header-bg-private, .header-bg-certification {
+		background-size: 720px;
+		background-position: 0px 20px;
+	}
 	#register {
 		margin-top: 27px;
 	}
+	.second-nav {
+		padding: 15px 0px;
+	}
 	.secondary-nav a {
 		text-align: center;
+		margin-right: 15px;
 	}
 	.secondary-nav a:last-child {
 		margin-right: 0px; 
+	}
+	#register a {
+		padding: 5px;
+	}
+	#signin-box {
+		margin: 0 auto;
+		width: 100%;
+		border: none;
 	}
 }
 
@@ -1051,14 +1124,18 @@ footer h4 a:hover {
 		width: 80px;
 	}
 	.header-bg-home, .header-bg-online, .header-bg-public, .header-bg-private, .header-bg-certification {
-		background-size: 600px;
-		background-position: -30px 30px;
+		background-size: 550px;
+		background-position: -30px 40px;
 	}
 	.header-content {
 		width: 85%;
-		padding: 22px 0px 100px 0px;
+		padding: 4px 0px 80px 0px;
 	}
 	h1 {
 		font-size: 2.7em;
+	}
+	p.quote {
+		font-size: 20px;
+		line-height: 28px;
 	}
 }

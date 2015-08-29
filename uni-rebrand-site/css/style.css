@@ -137,7 +137,6 @@ ul#list a:hover {
 
 input[type=number] {
 	font-family: "Brandon Grotesque";
-	height: 28px;
 	width: 80px;
 	padding: 10px;
 	font-size: 20px;
@@ -363,7 +362,7 @@ p.header {
 #top-menu-toggle {
 	float: right;
 	margin: 6px 0px 5px 0px;
-	font-size: 24px;
+	font-size: 20px;
 	cursor: pointer;
 }
 
@@ -1123,6 +1122,9 @@ a#forgot {
 	.second-nav a {
 		margin-right: 10px;
 	}
+	input[type=number] {
+		width: 70px;
+	}
 }
 
 @media only screen and (max-width: 432px) {
@@ -1147,8 +1149,8 @@ a#forgot {
 		font-size: 2.7em;
 	}
 	p {
-		font-size: 13px;
-		line-height: 24px;
+		font-size: 14px;
+		line-height: 25px;
 	}
 	p.quote {
 		font-size: 20px;

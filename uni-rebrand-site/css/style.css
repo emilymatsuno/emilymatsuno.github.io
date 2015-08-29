@@ -1171,4 +1171,8 @@ a#forgot {
 	.header-bg-home, .header-bg-online, .header-bg-public, .header-bg-private, .header-bg-certification {
 		background-size: 600px;
 		background-position: -30px 0px;
+	}
+	input[type=number] {
+		width: 50px;
+	}
 }

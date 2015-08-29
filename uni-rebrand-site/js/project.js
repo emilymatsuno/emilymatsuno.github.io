@@ -34,16 +34,11 @@ $(document).ready(function(){
 });
 
 	//Top Menu Expand//
-	$('#top-menu-toggle').click(function(open){
-
-		if (open) {
+	$('#top-menu-toggle').click(function(){
+			$('.header-content').toggleClass("expanded");
 			$('.top-menu-expand').animate({height: 'toggle'}, 400);
-			$('h1').css("color","rgba(0, 0, 0, 0.1)");
-			$('p.header').css("color","rgba(0, 0, 0, 0.1)");
-		}
-		else {
-			$('h1').css("color","white");
-			$('p.header').css("color","white");
-		}
-});
+		});
+
+	// //Use .trigger('click') function to make entire list item clickable
+	// 	(li):click//
 

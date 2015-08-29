@@ -273,6 +273,11 @@ header {
 	background-attachment: fixed;
 }
 
+.dim-header {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+}
+
 .sub-header-content {
 	width: 700px;
 	margin: 0 auto;
@@ -375,6 +380,11 @@ p.header {
 	width: 100%;
 }
 
+.header-content.expanded h1, .header-content.expanded p {
+	color: rgba(0,0,0,0.1);
+	transition: all 0.3s ease;
+}
+
 .top-menu-expand li {
 	list-style: none;
 	padding: 3% 5%;
@@ -394,13 +404,8 @@ p.header {
 	text-transform: uppercase;
 }
 
-.top-menu-expand li a:hover {
+.top-menu-expand li:hover a {
 	border-bottom: 2px solid white;
-}
-
-.dim-header {
-	background-color: rgba(0, 0, 0, 0.7);
-	height: 100%;
 }
 
 /*SECONDARY NAV MENU*/

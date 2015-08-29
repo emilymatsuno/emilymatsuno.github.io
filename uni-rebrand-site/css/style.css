@@ -607,6 +607,7 @@ p.quote {
 .grid-bg {
 	background-color: white;
 	padding: 50px 0px;
+	overflow: hidden;
 }
 
 .grid-wrapper {

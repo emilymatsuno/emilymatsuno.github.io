@@ -1173,10 +1173,9 @@ a#forgot {
 		background-position: -30px 0px;
 	}
 	.header-bg-online {
-		background-size: 600px;
+		background-size: 550px;
 		background-position: -130px 0px;
 	}
-
 	input[type=number] {
 		width: 50px;
 	}

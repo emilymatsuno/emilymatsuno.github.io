@@ -642,6 +642,7 @@ button#three-column-btn {
 button#three-column-btn:hover {
 	background-color: #558d35;
 	color: #ffffff;
+	border: 2px solid #558d35;
 }
 
 /*INSTRUCTORS PAGE STYLE*/

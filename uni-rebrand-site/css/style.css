@@ -201,7 +201,7 @@ button#toggle-btn, button {
 	z-index: 10;
 }
 
-button#toggle-btn:hover {
+button#toggle-btn:hover, button:hover {
 	border: 2px solid white;
 	color: white;
 	cursor: pointer;
@@ -1128,6 +1128,9 @@ a#forgot {
 @media only screen and (max-width: 432px) {
 	#top-menu-logo img {
 		margin-top: 2px;
+	}
+	.top-menu-expand li {
+		padding: 3.5% 5%;
 	}
 	.gray-bg td {
 		width: 80px;

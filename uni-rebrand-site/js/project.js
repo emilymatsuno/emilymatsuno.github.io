@@ -16,9 +16,8 @@ $(document).ready(function(){
 	});
 
 	//h1 effect//
-	$(".content").mouseleave(function(){
-		$("h1").fadeIn("slow");
-	});
+	$("h1").hide();
+	$("h1").fadeIn(1000);
 
 	//Signin Sidebar//
 	$($('#toggle-btn').click(function(signin) {

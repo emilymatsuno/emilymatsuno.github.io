@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	font-family: "Brandon Grotesque";
+	font-family: "Brandon Grotesque", "Arial", sans-serif;
 	font-size: 12px;
 }
 
@@ -31,9 +31,8 @@ h1 {
 	font-weight: 500;
 	text-transform: uppercase;
 	font-size: 60px;
-	margin-top: 130px;
+	margin-top: 120px;
 	color: white;
-	line-height: 68px;
 }
 
 h2 {
@@ -70,8 +69,8 @@ h4 {
 }
 
 h5 {
-	font-family: "ProformaBook";
-	font-size: 18px;
+	font-family: "Merriweather", "Times New Roman", serif;
+	font-size: 14px;
 	margin: 44px 0px 30px 0px;
 	color: #6ca439;
 }
@@ -87,11 +86,11 @@ h6 {
 
 p {
 	color: #a3a3a3;
-	font-family: "ProformaBook";
-	font-size: 16px;
+	font-family: "Merriweather", "Times New Roman", serif;
+	font-size: 14px;
 	text-transform: none;
 	margin-top: 20px;
-	line-height: 24px;
+	line-height: 25px;
 	letter-spacing: 0.0em;
 }
 
@@ -112,11 +111,11 @@ p#description a:hover {
 }
 
 p.description-short {
-	margin-bottom: 40px;
+	margin: 10px 0px 20px 0px;
 }
 
 ul#list {
-	font-family: "ProformaBook";
+	font-family: "Merriweather", "Times New Roman", serif;
 	color: #a3a3a3;
 	font-size: 16px;
 	line-height: 24px;
@@ -248,8 +247,8 @@ input#username, input[type="password"] {
 	margin: 40px 0px 0px 0px;
 	border: none;
 	font-size: 16px;
-	font-family: "ProformaBook";
-	padding: 8px;
+	font-family: "Merriweather", "Times New Roman", serif;
+	padding: 10px;
 }
 
 input[type="password"] {
@@ -313,11 +312,11 @@ header {
 
 
 p.header {
-	font-family: "ProformaBook";
+	font-family: "Merriweather", "Times New Roman", serif;
 	color: white;
 	text-transform: none;
-	line-height: 32px;
-	font-size: 22px;
+	font-size: 18px;
+	margin-top: 12px;
 }
 
 /*TOP MENU*/
@@ -357,13 +356,13 @@ p.header {
 }
 
 #top-menu-logo img {
-	margin: 0 auto;
+	margin-top: 2px;
 	width: 30px;
 }
 
 #top-menu-toggle {
 	float: right;
-	margin: 3px 0px;
+	margin: 6px 0px 5px 0px;
 	font-size: 24px;
 	cursor: pointer;
 }
@@ -387,6 +386,7 @@ p.header {
 }
 
 .top-menu-expand li a {
+	font-family: "Brandon Grotesque Regular";
 	font-size: 14px;
 	line-height: 14px;
 	color: white;
@@ -426,7 +426,7 @@ p.header {
 }
 
 .second-nav a {
-	font-weight: 400;
+	font-family: "Brandon Grotesque Regular";
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-right: 30px;
@@ -438,7 +438,7 @@ p.header {
 }
 
 button#register, button#register-cert {
-	font-family: "Brandon Grotesque";
+	font-family: "Brandon Grotesque Regular";
 	text-transform: uppercase;
 	padding: 8px 12px;
 	color: #6ca439;
@@ -486,8 +486,8 @@ button#register:hover, button#register-cert:hover {
 }
 
 p.intro {
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 18px;
+	line-height: 32px;
 }
 
 /*QUOTES*/
@@ -506,9 +506,9 @@ p.intro {
 }
 
 p.quote {
-	font-family: "ProformaBook";
-	font-size: 24px;
-	line-height: 30px;
+	font-family: "Merriweather", "Times New Roman", serif;
+	font-size: 22px;
+	line-height: 38px;
 	margin-top: 0;
 }
 
@@ -603,16 +603,19 @@ p.quote {
 
 /*PRIVATE, PUBLIC, CERTIFICATION SECTION*/
 
-.grid-wrapper {
+.grid-bg {
 	background-color: white;
-	padding: 80px 100px;
-	clear: both;
+	padding: 50px 0px;
+}
+
+.grid-wrapper {
+	width: 850px;
+	margin: 0 auto;
 }
 
 .three-column-grid {
 	float: left;
 	width: 28%;
-	height: 250px;
 	margin-right: 8%;
 }
 
@@ -620,7 +623,7 @@ p.quote {
 	margin-right: 0;
 }
 
-a#three-column-button {
+button#three-column-btn {
 	font-family: "Brandon Grotesque";
 	font-weight: 500;
 	text-transform: uppercase;
@@ -634,7 +637,7 @@ a#three-column-button {
 	letter-spacing: 0.04em;
 }
 
-a#three-column-button:hover {
+button#three-column-btn:hover {
 	background-color: #558d35;
 	color: #ffffff;
 }
@@ -670,8 +673,8 @@ a#three-column-button:hover {
 }
 
 p.last-cta {
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 18px;
+	line-height: 30px;
 	color: #6ca439;
 	padding-bottom: 30px;
 }
@@ -714,10 +717,10 @@ footer img{
 }
 
 footer p {
-	font-size: 15px;
+	font-size: 11px;
 	width: 500px;
 	color: #818181;
-	line-height: 22px;
+	line-height: 20px;
 	margin: -5px 0px 14px 0px;
 }
 
@@ -776,7 +779,7 @@ footer h4 a:hover {
 	width: 80%;
 	border: 1px solid #e7e7e7;
 	font-size: 16px;
-	font-family: "ProformaBook";
+	font-family: "Merriweather", "Times New Roman", serif;
 	padding: 10px;
 }
 
@@ -841,6 +844,18 @@ a#forgot {
 	footer p {
 		width: 450px;
 	}
+	.three-column-grid {
+		float: none;
+		width: 100%;
+		margin-right: 0px;
+		margin-top: 50px;
+	}
+	.three-column-grid:first-child {
+		margin-top: 0px;
+	}
+	.grid-wrapper {
+		width: 600px;
+	}
 }
 
 @media only screen and (max-width: 870px) {
@@ -856,16 +871,12 @@ a#forgot {
 		font-size: 54px;
 		margin-top: 65px;
 	}
-	p.header {
-		margin-top: 0px;
-		font-size: 20px;
-	}
 	h2 {
 		font-size: 26px;
 	}
 	p.intro {
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 16px;
+		line-height: 28px;
 		margin-top: 10px;
 	}
 	.intro-content {
@@ -911,11 +922,11 @@ a#forgot {
 		width: 600px;
 	}
 	footer img {
-		width: 145px;
+		width: 130px;
 	}
 	footer p {
 		width: 400px;
-		font-size: 13px;
+		font-size: 11px;
 		line-height: 18px;
 	}
 }
@@ -942,10 +953,8 @@ a#forgot {
 	.last-cta-content {
 		width: 550px;
 	}
-	footer p {
-		width: 350px;
-		font-size: 13px;
-		line-height: 18px;
+	.grid-wrapper {
+		width: 550px;
 	}
 }
 
@@ -993,6 +1002,9 @@ a#forgot {
 	.wrapper {
 		width: 85%;
 	}
+	.grid-wrapper {
+		width: 85%;
+	}
 	.gray-bg table {
 		width: 100%;
 	}
@@ -1014,7 +1026,7 @@ a#forgot {
 		width: 85%;
 	}
 	p.header{ 
-		font-size: 18px;
+		font-size: 16px;
 	}
 	h2 {
 		font-size: 20px;
@@ -1022,6 +1034,7 @@ a#forgot {
 	}
 	p.intro {
 		margin-top: 1%;
+		font-size: 1.3em;
 	}
 	footer img {
 		width: 130px;
@@ -1063,6 +1076,7 @@ a#forgot {
 		margin: 0;
 		padding-top: 3%;
 		width: 100%;
+		font-size: 10px;
 	}
 	footer h4 {
 		padding-top: 2%;
@@ -1080,7 +1094,7 @@ a#forgot {
 	.second-nav a:last-child {
 		margin-right: 0px; 
 	}
-	button#register {
+	button#register, button#register-cert {
 		padding: 5px 8px;
 	}
 	#signin-box {
@@ -1100,13 +1114,9 @@ a#forgot {
 		line-height: 40px;
 	}
 	p.header {
-		font-size: 18px;
 		line-height: 26px;
+		margin-top: 1%;
 	}
-	.wrapper {
-		width: 86%;
-	}
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -1132,6 +1142,10 @@ a#forgot {
 	}
 	h1 {
 		font-size: 2.7em;
+	}
+	p {
+		font-size: 13px;
+		line-height: 24px;
 	}
 	p.quote {
 		font-size: 20px;

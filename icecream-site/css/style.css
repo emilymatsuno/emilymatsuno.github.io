@@ -1,0 +1,538 @@
+body {
+	background-color: white;
+	font-family: 'NTR', sans-serif;
+}
+
+.wrapper {
+	padding: 50px auto;
+	text-align: center;
+	border: 10px solid #d05896;
+}
+
+.row {
+	margin: 10px auto;
+}
+
+.row:first-child {
+	margin-top: 50px;
+}
+
+/*SEARCH FLAVOR STYLE*/
+label {
+	position: relative;
+	z-index: 1;
+	left: 40px;
+	font-size: 20px;
+	color: #d05896;
+}
+
+input[type=text] {
+	padding: 3px 10px 0px 10px;
+	border-radius: 50px;
+	border: 3px solid #e7e7e7;
+	width: 300px;
+	outline: none;
+	font-family: 'NTR', sans-serif;
+	font-size: 20px;
+	color: #d05896;
+	text-align: center;
+	margin-bottom: 40px;
+	transition: all 0.3s ease;
+}
+
+input[type=text]:focus {
+	border: 3px solid #d05896;
+	transition: all 0.3s ease;
+}
+
+/*ICE CREAM STYLE*/
+img#logo {
+	width: 220px;
+	border: 4px solid white;
+	padding: 20px;
+	background-color: white;
+	border-radius: 40%;
+}
+
+img#logo:hover {
+	background-color: white;
+	border: 4px solid white;
+}
+
+.icecream img {
+	width: 220px;
+	border: 4px solid white;
+	background-color: white;
+	padding: 20px;
+	border-radius: 40%;
+	transition: all 0.2s ease;
+}
+
+.icecream img:hover {
+	border-radius: 50%;
+	border: 4px solid #ea83be;
+	background-image: url('../img/bg-2.png');
+	background-position: 290px 65px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+/*FLAVOR PAGE STYLE*/
+
+.flavor-wrapper {
+	background-image: url("../img/bg-2.png");
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#flavor-img {
+	width: 340px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0px;
+	border-radius: 50%;
+}
+
+#flavor-detail-bg {
+	background-color: #d05896;
+}
+
+#flavor-detail-wrapper {
+	padding: 50px 0px;
+	max-width: 640px;
+	width: 50%;
+	background-color: #d05896;
+	text-align: center;
+	margin: 0 auto;
+}
+
+button#home {
+	float: left;
+	border: none;
+	border-radius: 50%;
+	border: 2px solid #115a9d;
+	background-color: white;
+	width: 45px;
+	height: 45px;
+	font-size: 24px;
+	top: 30px;
+	left: 40px;
+	padding-top: 0px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+}
+
+#home a {
+	color: #115a9d;
+}
+
+button#home:hover, #home a:hover {
+	background-color: #115a9d;
+	transition: all 0.3s ease;
+}
+
+#home a:hover {
+	color: white;
+	transition: all 0.3s ease;
+}
+
+button#back-btn {
+	float: left;
+	border: none;
+	border-radius: 50%;
+	background-color: #ea83be;
+	color: white;
+	width: 50px;
+	height: 50px;
+	font-size: 28px;
+	top: 420px;
+	left: 120px;
+	padding-top: 4px;
+	padding-left: 2px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+}
+
+button#forward-btn {
+	float: left;
+	border: none;
+	border-radius: 50%;
+	background-color: #ea83be;
+	color: white;
+	width: 50px;
+	height: 50px;
+	font-size: 28px;
+	top: 420px;
+	right: 120px;
+	padding-top: 4px;
+	padding-right: 2px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+}
+
+#forward-btn a, #back-btn a {
+	color: white;
+}
+
+button#back-btn:hover, button#forward-btn:hover {
+	background-color: #d05896;
+	transition: all 0.3s ease;
+
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(45,50,102,1);
+	box-shadow: 2px 8px 20px 0px rgba(45,50,102,1);
+}
+
+button#back-btn:focus, button#forward-btn:focus {
+	outline: 0;
+}
+
+
+h1 {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 17px;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 30px;
+}
+
+h2 {
+	font-size: 26px;
+	color: white;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+p.ingredients {
+	font-size: 14px;
+	color: #ea83be;
+	line-height: 16px;
+	margin-bottom: 0px;
+}
+
+.fa-registered, .fa-trademark {
+	font-size: 12px;
+	vertical-align: super;
+}
+
+.reg {
+	font-size: 12px;
+	vertical-align: super;
+	display: inline;
+}
+
+/*.flavor, .flavor:hover {
+	position: relative;
+}
+.flavor span, span:hover {
+    display: none;
+}
+.flavor:hover span {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    background-color: #d05896;
+    padding: 20px;
+    top: -195px;
+    left: 54px;
+    display: block;
+    z-index: 100;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+*/
+
+
+/*LOADER PAGE*/
+.loader-page {
+	background-color: white;
+	padding: 300px;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#loading-spoon {
+	width: 100px;
+}
+
+/*FOOTER*/
+footer {
+	padding-top: 50px;
+}
+
+#spoon {
+	width: 90px;
+}
+
+footer h3, h4 {
+	padding: 10px 0px 10px;
+	font-size: 14px;
+	color: #d05896;
+	line-height: 18px;
+}
+
+footer h4 {
+	color: #A6A6A6;
+	padding: 0px;
+}
+
+footer h4:last-child {
+	margin-bottom: 50px;
+}
+
+/*RESPONSIVE STYLE*/
+
+@media only screen and (max-width: 1090px) {
+	.icecream img, img#logo {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 1040px) {
+	.icecream img, img#logo {
+		width: 190px;
+	}
+}
+
+@media only screen and (max-width: 1008px) {
+	.icecream img, img#logo {
+		width: 170px;
+	}
+}
+
+@media only screen and (max-width: 901px) {
+	.icecream img, img#logo {
+		width: 168px;
+		padding: 14px;
+	}
+	#flavor-detail-wrapper {
+		width: 55%;
+	}
+}
+
+@media only screen and (max-width: 889px) {
+	.icecream img, img#logo {
+		width: 166px;
+		padding: 14px;
+	}
+}
+
+@media only screen and (max-width: 854px) {
+	.icecream img, img#logo {
+		width: 140px;
+	}
+}
+
+@media only screen and (max-width: 810px) {
+	button#back-btn, button#forward-btn {
+		width: 44px;
+		height: 44px;
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+	.icecream img, img#logo {
+		width: 135px;
+	}
+}
+
+@media only screen and (max-width: 763px) {
+	.icecream img, img#logo {
+		width: 140px;
+		padding: 14px;
+	}
+	#flavor-detail-wrapper {
+		width: 65%;
+	}
+	h1 {
+		font-size: 45px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.icecream img, img#logo {
+		width: 135px;
+		padding: 14px;
+	}
+	#flavor-detail-wrapper {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 714px) {
+	.icecream img, img#logo {
+		width: 130px;
+		padding: 14px;
+	}
+}
+
+@media only screen and (max-width: 694px) {
+	.icecream img, img#logo {
+		width: 126px;
+		padding: 12px;
+	}
+	.row:first-child {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 662px) {
+	.icecream img, img#logo {
+		width: 122px;
+		padding: 12px;
+	}
+}
+
+@media only screen and (max-width: 646px) {
+	.icecream img, img#logo {
+		width: 123px;
+		padding: 10px;
+	}
+	.row:first-child {
+		margin-top: 25px;
+	}
+}
+
+@media only screen and (max-width: 634px) {
+	.icecream img, img#logo {
+		width: 120px;
+		padding: 10px;
+	}
+	#flavor-img {
+		width: 330px;
+	}
+	button#back-btn, button#forward-btn {
+		top: 415px;
+	}
+}
+
+@media only screen and (max-width: 622px) {
+	.icecream img, img#logo {
+		width: 115px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 602px) {
+	.icecream img, img#logo {
+		width: 112px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.icecream img, img#logo {
+		width: 200px;
+	}
+	button#back-btn, button#forward-btn {
+		width: 40px;
+		height: 40px;
+		font-size: 22px;
+		top: 415px;
+	}
+	#flavor-detail-wrapper {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.icecream img, img#logo {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 519px) {
+	.row:first-child {
+		margin-top: 27px;
+	}
+	.icecream img, img#logo {
+		width: 190px;
+	}
+	#flavor-img {
+		width: 300px;
+	}
+	button#back-btn, button#forward-btn {
+		top: 385px;
+	}
+	button#home {
+		top: 20px;
+		left: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 499px) {
+	.icecream img, img#logo {
+		width: 180px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.icecream img, img#logo {
+		width: 170px;
+	}
+	h1 {
+		font-size: 42px;
+		line-height: 44px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.icecream img, img#logo {
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width: 439px) {
+	.icecream img, img#logo {
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 419px) {
+	.icecream img, img#logo {
+		width: 145px;
+		padding: 12px;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 40px;
+		line-height: 38px;
+	}
+
+	p {
+		margin: 20px 0px 35px 0px;
+	}
+
+}
